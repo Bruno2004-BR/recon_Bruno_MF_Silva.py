@@ -3,6 +3,7 @@ Bruno Martiliano Ferreira da Silva - Script.py
 
 Simulação de Técnica de Reconhecimento (PoetRat) - Simulação na Prática de Aprendizado
 
-Este exercício me possibilitou compreender como os malwares identificam sistemas, utilizando técnicas da MITRE ATT&CK. A técnica T1082 (System Information Discovery) foi aplicada para reunir dados fundamentais do sistema, tais como nome do host, sistema operacional, versão e arquitetura, utilizando a biblioteca 'platform' do Python. Já a técnica T1033 (User Account Discovery) para descobrir o nome do usuário conectado e variáveis de ambiente relevantes, como USERPROFILE e APPDATA no Windows, utilizando os comandos 'getpass' e 'os', respectivamente.
+Este exercício me possibilitou compreender como os malwares identificam sistemas, utilizando técnicas da MITRE ATT&CK. A técnica T1082 (System Information Discovery) foi aplicada para reunir dados fundamentais do sistema, como nome do host, sistema operacional, versão e arquitetura, utilizando a biblioteca 'platform' do Python. Já a técnica T1033 (User Account Discovery) para descobrir o nome do usuário conectado e variáveis de ambiente importantes, como USERPROFILE e APPDATA no Windows, utilizando os comandos 'getpass' e 'os'.
 
-Compreendi a relevância de entender o funcionamento de malwares para a proteção cibernética, além da necessidade de proteger informações confidenciais do sistema e de quem está utilizando-o. Este script é apenas uma simulação educacional e não executa ações prejudiciais.
+Compreendi a importância de entender o funcionamento de malwares para a proteção cibernética, além da necessidade de proteger informações confidenciais do sistema e de quem está utilizando-o. Este script é apenas uma simulação educacional e não executa ações má intencionadas.
+
